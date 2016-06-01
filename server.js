@@ -2,7 +2,7 @@ var express = require('express');
 
 // Create our app
 var app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // secure redirection code
 app.use(function(req, res, next) {
